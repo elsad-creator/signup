@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.all{
+    display: flex;
+margin-top: 60px;
+margin-left: 52px;
+margin-right: 52px;
+background-color:  #F5F5FF;
+}
+.left{
+    width: 859px;
+height: 859px;
+    background-image: url(./images/OM6UUZ0\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+height: 777px;
+    background-color: #FFFFFF;
+    margin-left: 200px; 
+margin-top: 65px;
+h1{
+    font-weight: 700;
+font-size: 30px;
+line-height: 33px;
+    padding-top: 40px;
+}
+h3{
+    font-weight: 700;
+font-size: 23px;
+line-height: 22px;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+.st{
+    font-weight: 700;
+font-size: 23px;
+line-height: 22px;
+}
+.tch{
+    font-weight: 700;
+font-size: 23px;
+line-height: 22px;
+margin-left: 72px;
+}
+p{
+    font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 22px;
+color: #8A7E7E;
+padding-top: 35px;
+}
+.inputs{
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    padding: 20px;
+    border: 0;
+}
+.acp{
+    .check{
+        width: 17px;
+        height: 17px;
+        margin-top: 20px;
+        
+    }
+    span{
+        font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+color: #8A7E7E;
+    }
+}
+.signups{
+    margin-top: 41px;
+    width: 405px;
+height: 46px;
+background: #675AF0;
+border-radius: 6px;
+color:#FFFFFF;
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 22px;
+transition: color .5s;
+ z-index: 1;
+}
+.or{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 22px;
+color: #8A7E7E;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 15px;
+margin-left: 15px;
+ .line{
+    margin-right: 15px;
+margin-left: 15px;
+    height: 0.5px;
+    flex: 1 0 0%;
+    background-color: rgba(55, 65, 81, 1);
+ }
+}
+.google{
+    width: 405px;
+    height: 46px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+    img{
+        
+        padding-left: 30px;
+    }
+    span{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: -0.035em;
+        color: #A39D9D;
+        padding-bottom: 4px;
+padding-left: 44px;
+
+    }
+}
+}
+.signups:hover{
+   background-color: #FFFFFF;
+   color: #675AF0;
+   transition-duration: 2ms;
+}
+
+
